@@ -12,7 +12,7 @@ public enum ErrorCode implements ErrorCodeI {
     private final String errCode;
     private final String errDesc;
 
-    private ErrorCode(String errCode, String errDesc) {
+    ErrorCode(String errCode, String errDesc) {
         this.errCode = errCode;
         this.errDesc = errDesc;
     }
